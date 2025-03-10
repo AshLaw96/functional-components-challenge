@@ -1,10 +1,12 @@
 import css from "./App.module.css";
-import StatefulGreetingWithPrevState from "./components/StatefulGreetingWithPrevState";
+import NavBarSimple from "./components/Challenge";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
     <div className={css.App}>
-      <StatefulGreetingWithPrevState name="Ash" />
+      <NavBarSimple />
+      <Sidebar />
     </div>
   );
 }
