@@ -1,10 +1,14 @@
 import css from "./App.module.css";
-import LifeCyclesCWU from "./components/LifeCyclesCWU";
+import Sidebar from "./components/Sidebar";
+import NavBarForm from "./components/Challenge2";
+import Challenge4 from "./components/Challenge4";
 
 function App() {
   return (
     <div className={css.App}>
-      <LifeCyclesCWU />
+      <NavBarForm />
+      <Sidebar />
+      <Challenge4 />
     </div>
   );
 }
