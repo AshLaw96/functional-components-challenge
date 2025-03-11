@@ -1,14 +1,10 @@
 import css from "./App.module.css";
-import Sidebar from "./components/Sidebar";
-import NavBarForm from "./components/Challenge2";
-import Content from "./components/Challenge3";
+import LifeCycleCDM from "./components/LifeCycleCDM";
 
 function App() {
   return (
     <div className={css.App}>
-      <NavBarForm />
-      <Sidebar />
-      <Content />
+      <LifeCycleCDM />
     </div>
   );
 }
