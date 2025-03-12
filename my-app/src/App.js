@@ -1,14 +1,14 @@
 import css from "./App.module.css";
-import ContentHooks from "./components/ContentHooks";
 import Sidebar from "./components/Sidebar";
 import NavBarForm from "./components/Challenge2";
+import ContentAPIHooks from "./components/ContentAPIHooks";
 
 function App() {
   return (
     <div className={css.App}>
       <NavBarForm />
       <Sidebar />
-      <ContentHooks />
+      <ContentAPIHooks />
     </div>
   );
 }
